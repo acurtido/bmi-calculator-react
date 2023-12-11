@@ -1,9 +1,7 @@
 .container {
   width: 375px;
-  height: 640px;
+  height: 4418px;
   flex-shrink: 0;
-  border-radius: 0px 0px 35px 35px;
-  background: var(--Gradient-1, linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%));
   margin: 0 auto;
   display: flex;
   flex-direction: column;

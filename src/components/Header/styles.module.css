@@ -1,9 +1,13 @@
 .container {
+    width: 375px;
+    height: 640px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    border-radius: 0px 0px 35px 35px;
+    background: var(--Gradient-1, linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%));
 }
 
 .container>img {
@@ -22,7 +26,6 @@
     font-weight: 600;
     line-height: 110%;
     letter-spacing: -2.4px;
-    /* font-family: 'Inter', sans-serif; */
     font-family: Inter;
     width: 327px;
     height: 159px;
