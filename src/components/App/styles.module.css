@@ -1,3 +1,10 @@
 .container {
-  color: red;
+  width: 375px;
+  height: 4418px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

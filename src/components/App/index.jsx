@@ -1,10 +1,17 @@
 import style from './styles.module.css'
+import Header from '../Header'
+import Calculator from '../Calculator'
 
 function App() {
 
   return (
     <div className={style.container}>
-      <h1>Hello World</h1>
+      <Header/>
+      <Calculator/>
+      <div className={style.results}></div>
+      <div className={style.resultsMeaning}></div>
+      <div className={style.advice}></div>
+      <div className={style.limitations}></div>
     </div>
   )
 }
